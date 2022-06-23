@@ -111,9 +111,8 @@ const AboutMe = () => {
                     AtlasLog: Local storage self-contained application
                   </CustomListItem>
                 </CustomList>
-                <CustomListItem>DriveTime (Summer 2021)</CustomListItem>
+                <CustomListItem>Boeing Senior Project</CustomListItem>
                 <CustomList expanded={experienceExpanded}>
-                  <CustomListItem>Boeing Senior Project</CustomListItem>
                   <CustomListItem>
                     Full stack React application with a team of two other
                     computer scientists at Gonzaga University
