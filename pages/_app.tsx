@@ -2,7 +2,7 @@ import type { AppProps } from "next/app";
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { lightTheme, darkTheme, GlobalStyles } from "../theme/ThemeConfig";
-import { Footer, LandingPageButton, NavBarContainer } from "./landing.styled";
+import { LandingPageButton, NavBarContainer } from "./landing.styled";
 import Link from "next/link";
 
 function MyApp({ Component, pageProps }: AppProps) {

@@ -1,7 +1,7 @@
-import { StyledImage } from "../../../pages/aboutMe/aboutMe.styled";
-import { SocialContainer } from "./social.styled";
+import { StyledImage } from "../../../pages/aboutMe/index";
+import styled from "styled-components";
 
-const Social = (props: any) => {
+const Social = () => {
   return (
     <SocialContainer>
       <a href="https://github.com/lmason2">
@@ -31,5 +31,14 @@ const Social = (props: any) => {
     </SocialContainer>
   );
 };
+
+// styles
+const SocialContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+`;
 
 export default Social;
