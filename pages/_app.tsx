@@ -20,9 +20,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Link href="/aboutMe">
           <LandingPageButton>Me</LandingPageButton>
         </Link>
-        {/* <Link href="/projects">
+        <Link href="/projects">
           <LandingPageButton>Projects</LandingPageButton>
-        </Link> */}
+        </Link>
         <LandingPageButton onClick={toggleTheme}>
           {theme == "light" ? `Dark Mode` : `Light Mode`}
         </LandingPageButton>

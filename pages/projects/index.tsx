@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Typography from "../../src/components/typography";
 import styled from "styled-components";
+import { LandingPageButton } from "..";
 
 const Projects = () => {
   return (
@@ -30,6 +31,16 @@ const Projects = () => {
         </Typography>
         <RowContainer>
           <Card>
+            <Typography type="h3">Atlas</Typography>
+            <hr style={{ width: "90%" }} />
+            <CardContent>
+              <Typography type="h4">🚧 Under Construction 🚧</Typography>
+              <a href="https://atlas-endurance.vercel.app">
+                <LandingPageButton>Check It Out!</LandingPageButton>
+              </a>
+            </CardContent>
+          </Card>
+          {/* <Card>
             <Typography type="h3">AtlasLog</Typography>
             <hr style={{ width: "90%" }} />
             <div className="child">
@@ -58,7 +69,7 @@ const Projects = () => {
             <div className="child">
               <Typography type="h5">Text a;lsdkjf;laskdjf;lasjdf</Typography>
             </div>
-          </Card>
+          </Card> */}
         </RowContainer>
       </ProjectsContainer>
     </>
@@ -86,6 +97,16 @@ const RowContainer = styled.div`
   gap: 1rem;
 `;
 
+const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 1rem;
+`;
+
 const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -93,16 +114,9 @@ const Card = styled.div`
   border: 1px solid ${({ theme }) => theme.text}};
   padding: 15px;
   border-radius: 15px;
-  
-  .child {
-    display: none
-  }
   :hover {
     box-shadow: 1px 1px 0 2px ${({ theme }) => theme.text}};
     height: fit-content;
-  }
-  :hover .child {
-    display: block
   }
   transition: all 0.5s ease-out;
 `;
