@@ -11,6 +11,7 @@ import {
 } from "./aboutMe.styled";
 import { SmallKeyboardArrowRight } from "../../src/icons/icons.styled";
 import { useState } from "react";
+import Social from "../../src/components/social";
 
 const AboutMe = () => {
   const [educationExpanded, setEducationExpanded] = useState(false);
@@ -39,6 +40,7 @@ const AboutMe = () => {
       <AboutMeContainer>
         <Typography type="h1">Luke Mason</Typography>
         <Typography>Full Stack React Developer</Typography>
+        <Social />
         <RowContainer>
           <ColumnContainer>
             <RowContainer>
