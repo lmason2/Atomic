@@ -40,11 +40,11 @@ const Passion: FC<PassionProps> = ({ passionExpanded, setPassionExpanded }) => {
         <CustomList expanded={passionExpanded}>
           <CustomListItem>National Park Enthusiast</CustomListItem>
           <CustomList expanded={passionExpanded}>
-            <CustomListItem>Grand Canyon NP</CustomListItem>
-            <CustomListItem>Glacier NP</CustomListItem>
-            <CustomListItem>Grand Tetons NP</CustomListItem>
-            <CustomListItem>Yellowstone NP</CustomListItem>
-            <CustomListItem>Zion NP</CustomListItem>
+            <CustomListItem>Grand Canyon</CustomListItem>
+            <CustomListItem>Glacier</CustomListItem>
+            <CustomListItem>Grand Tetons</CustomListItem>
+            <CustomListItem>Yellowstone</CustomListItem>
+            <CustomListItem>Zion</CustomListItem>
           </CustomList>
           <StyledImage src="/images/moose.jpg" />
           <CustomListItem>Adventurer</CustomListItem>
