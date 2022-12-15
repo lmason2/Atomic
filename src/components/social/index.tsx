@@ -1,10 +1,10 @@
-import { StyledImage } from "../../../pages/aboutMe/index";
-import styled from "styled-components";
+import { StyledImage } from "../../../pages/aboutMe/aboutMe.styled";
+import { SocialContainer } from "./social.styled";
 
 const Social = () => {
   return (
     <SocialContainer>
-      <a href="https://github.com/lmason2">
+      <a href="https://github.com/lmason2" target="_blank" rel="noreferrer">
         <StyledImage
           src="/github.png"
           style={{
@@ -16,13 +16,11 @@ const Social = () => {
           }}
         />
       </a>
-      <a href="https://twitter.com/LvkeMvson">
-        <StyledImage
-          src="/twitter.png"
-          style={{ width: "30px", height: "auto" }}
-        />
-      </a>
-      <a href="https://www.instagram.com/lvke_mvson/">
+      <a
+        href="https://www.instagram.com/lvke_mvson/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <StyledImage
           src="/instagram.png"
           style={{ width: "30px", height: "auto" }}
@@ -31,14 +29,5 @@ const Social = () => {
     </SocialContainer>
   );
 };
-
-// styles
-const SocialContainer = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-`;
 
 export default Social;
