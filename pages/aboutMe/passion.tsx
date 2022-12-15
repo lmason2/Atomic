@@ -35,7 +35,7 @@ const Passion: FC<PassionProps> = ({ passionExpanded, setPassionExpanded }) => {
             Emphasis on improvement and daily effort over results
           </CustomListItem>
         </CustomList>
-        <StyledImage src="/running.jpg" />
+        <StyledImage src="/images/running.jpg" />
         <CustomListItem>Outdoors</CustomListItem>
         <CustomList expanded={passionExpanded}>
           <CustomListItem>National Park Enthusiast</CustomListItem>
@@ -46,14 +46,14 @@ const Passion: FC<PassionProps> = ({ passionExpanded, setPassionExpanded }) => {
             <CustomListItem>Yellowstone NP</CustomListItem>
             <CustomListItem>Zion NP</CustomListItem>
           </CustomList>
-          <StyledImage src="/moose.jpg" />
+          <StyledImage src="/images/moose.jpg" />
           <CustomListItem>Adventurer</CustomListItem>
           <CustomList expanded={passionExpanded}>
             <CustomListItem>Cliff Jumping</CustomListItem>
             <CustomListItem>Sky Diving</CustomListItem>
             <CustomListItem>Traveler</CustomListItem>
           </CustomList>
-          <StyledImage src="/balloon.jpg" />
+          <StyledImage src="/images/balloon.jpg" />
         </CustomList>
       </CustomList>
     </ColumnContainer>

@@ -6,7 +6,7 @@ const Social = () => {
     <SocialContainer>
       <a href="https://github.com/lmason2" target="_blank" rel="noreferrer">
         <StyledImage
-          src="/github.png"
+          src="/images/github.png"
           style={{
             width: "30px",
             height: "auto",
@@ -22,7 +22,7 @@ const Social = () => {
         rel="noreferrer"
       >
         <StyledImage
-          src="/instagram.png"
+          src="/images/instagram.png"
           style={{ width: "30px", height: "auto" }}
         />
       </a>
