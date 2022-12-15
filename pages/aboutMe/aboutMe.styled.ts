@@ -6,8 +6,8 @@ export const AboutMeContainer = styled.div`
   margin: 10px;
   margin-top: auto;
   margin-bottom: auto;
-  height: 100vh;
-  margin-top: 6rem;
+  margin-top: 130px;
+  height: 90vh;
   z-index: 1000;
   gap: 10px;
 `;

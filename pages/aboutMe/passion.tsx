@@ -30,7 +30,9 @@ const Passion: FC<PassionProps> = ({ passionExpanded, setPassionExpanded }) => {
         <CustomListItem>Distance Running</CustomListItem>
         <CustomList expanded={passionExpanded}>
           <CustomListItem>High School & Collegiately</CustomListItem>
-          <CustomListItem>Team capatain at Gonzaga University</CustomListItem>
+          <CustomListItem>
+            Team capatain at Gonzaga University and ASU
+          </CustomListItem>
           <CustomListItem>
             Emphasis on improvement and daily effort over results
           </CustomListItem>

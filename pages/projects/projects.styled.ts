@@ -6,8 +6,8 @@ export const ProjectsContainer = styled.div`
   margin: 10px;
   margin-top: auto;
   margin-bottom: auto;
-  height: 100vh;
-  margin-top: 6rem;
+  height: 90vh;
+  margin-top: 130px;
   z-index: 1000;
   gap: 10px;
 `;

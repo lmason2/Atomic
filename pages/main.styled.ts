@@ -4,10 +4,10 @@ export const Footer = styled.div`
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 5vh;
+  height: 75px;
   display: flex;
   flex: 1;
-  padding: 1.5rem 0;
+  padding: 20px;
   border-top: 1px solid ${({ theme }) => theme.text}};
   justify-content: center;
   align-items: center;
@@ -18,12 +18,13 @@ export const NavBarContainer = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 1.5rem 0.5rem;
+  padding: 20px;
   border-bottom: 1px solid ${({ theme }) => theme.text}};
   background: ${({ theme }) => theme.body}};
-  height: 5vh;
+  height: 75px;
   gap: 1rem;
   justify-content: center;
+  align-items: center;
 `;
 
 export const LandingPageButton = styled.button`
@@ -47,15 +48,15 @@ export const MainContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
   margin-top: auto;
   margin-bottom: auto;
-  height: 100%;
+  height: 85%;
   gap: 1rem;
 `;
 
 export const ContentContainer = styled.div`
-  height: 100vh;
+  height: 80vh;
+  margin-top: 130px;
 `;
 
 export default Footer;
