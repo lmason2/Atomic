@@ -43,3 +43,5 @@ export const Card = styled.div`
   }
   transition: all 0.5s ease-out;
 `;
+
+export default ProjectsContainer;

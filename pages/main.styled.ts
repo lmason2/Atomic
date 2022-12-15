@@ -57,3 +57,5 @@ export const MainContainer = styled.div`
 export const ContentContainer = styled.div`
   height: 100vh;
 `;
+
+export default Footer;

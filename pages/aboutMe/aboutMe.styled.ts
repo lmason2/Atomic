@@ -60,3 +60,5 @@ export const StyledImage = styled.img<{ src: string }>`
     height: 300px;
   }
 `;
+
+export default AboutMeContainer;
